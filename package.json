@@ -1,0 +1,26 @@
+{
+  "name": "stalinblyatinum",
+  "version": "1.0.0",
+  "description": "This repository is meant to host the source code for Stalin Blyatinum In OWO5 Discord Server.",
+  "main": "index.js",
+  "dependencies": {
+    "console": "^0.7.2",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngzhankang/stalinBlyatinum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngzhankang/stalinBlyatinum/issues"
+  },
+  "homepage": "https://github.com/ngzhankang/stalinBlyatinum#readme"
+}
