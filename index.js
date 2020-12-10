@@ -24,6 +24,9 @@ bot.on('ready', () => {
     console.log(`Logged in as ${bot.user.tag}!`);
 });
 
+// set activity status of bot
+bot.user.setStatus("сука блять! ☭☭☭")
+
 bot.on('message', message => {
     const prefixRegex = new RegExp(`^(<@!?${bot.user.id}>|${escapeRegex(prefix)})\\s*`);
     if (!prefixRegex.test(message.content)) return;
